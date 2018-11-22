@@ -71,9 +71,9 @@ class CategoryDetailAdapter(context: Context, dataList: ArrayList<HomeBean.Issue
     private fun goToVideoPlayer(activity: Activity, view: View, itemData: HomeBean.Issue.Item) {
         val intent = Intent(activity, VideoDetailActivity::class.java)
         intent.putExtra(Constants.BUNDLE_VIDEO_DATA, itemData)
-        intent.putExtra(VideoDetailActivity.Companion.TRANSITION, true)
+        intent.putExtra(VideoDetailActivity.TRANSITION, true)
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-            val pair = Pair<View, String>(view, VideoDetailActivity.IMG_TRANSITION)
+            val pair = Pair(view, VideoDetailActivity.IMG_TRANSITION)
             val activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(
                     activity, pair)
             ActivityCompat.startActivity(activity, intent, activityOptions.toBundle())
