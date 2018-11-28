@@ -17,5 +17,6 @@
     <string name="search_result_count">-「%1$s」搜索结果共%2$d个-</string>
     <string name="video_offline">缓存</string>
     <string name="video_attention">关注</string>
+    <string name="hot_title">人气榜</string>
 
 </resources>

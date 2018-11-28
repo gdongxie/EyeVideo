@@ -1,4 +1,4 @@
-package com.hazz.kotlinmvp.mvp.model.bean
+package com.zzl.tianyan.mvp.model.bean
 
 import java.io.Serializable
 

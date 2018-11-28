@@ -1,9 +1,9 @@
 package com.zzl.tianyan.api
 
-import com.hazz.kotlinmvp.mvp.model.bean.AuthorInfoBean
-import com.hazz.kotlinmvp.mvp.model.bean.CategoryBean
-import com.hazz.kotlinmvp.mvp.model.bean.TabInfoBean
+import com.zzl.tianyan.mvp.model.bean.AuthorInfoBean
+import com.zzl.tianyan.mvp.model.bean.CategoryBean
 import com.zzl.tianyan.mvp.model.bean.HomeBean
+import com.zzl.tianyan.mvp.model.bean.TabInfoBean
 import io.reactivex.Observable
 import retrofit2.http.GET
 import retrofit2.http.Query
