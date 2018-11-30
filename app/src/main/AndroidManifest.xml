@@ -39,7 +39,8 @@
             android:name=".ui.activity.MainActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".ui.activity.SearchActivity" />
-        <activity android:name=".ui.activity.VideoDetailActivity"></activity>
+        <activity android:name=".ui.activity.VideoDetailActivity" />
+        <activity android:name=".ui.activity.CategoryDetailActivity"></activity>
     </application>
 
 </manifest>
