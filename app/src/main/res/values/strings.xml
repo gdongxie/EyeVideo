@@ -18,5 +18,14 @@
     <string name="video_offline">缓存</string>
     <string name="video_attention">关注</string>
     <string name="hot_title">人气榜</string>
+    <string name="nickname">东邪</string>
+    <string name="view_homepage">查看个人主页</string>
+    <string name="collection">收藏</string>
+    <string name="comment">评论</string>
+    <string name="mine_message">我的消息</string>
+    <string name="mine_attention">我的关注</string>
+    <string name="mine_cache">我的缓存</string>
+    <string name="view_history">观看历史</string>
+    <string name="feedback">意见反馈</string>
 
 </resources>
